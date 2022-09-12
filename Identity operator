@@ -1,0 +1,24 @@
+>>> a = 1
+>>> b = 1
+>>> a is b
+True
+>>> x = 257
+>>>  y = 257
+ 
+SyntaxError: unexpected indent
+>>> y = 257
+>>> x is y
+False
+>>> a = int(input("Enter value of a:"))
+Enter value of a:1
+>>> b = 1
+>>> a is b
+True
+>>> a = float(input("Enter value of a:"))
+Enter value of a:4.5
+>>> b = 4.5
+>>> a == b
+True
+>>> a is b
+False
+>>> 
