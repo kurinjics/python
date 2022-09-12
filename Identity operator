@@ -22,3 +22,10 @@ True
 >>> a is b
 False
 >>> 
+>>> a = 5.6
+>>> b = 5.6
+>>> a is b
+False
+>>> a is b
+False
+>>> 
